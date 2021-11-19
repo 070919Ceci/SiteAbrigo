@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.grid {
+  width: 1140px;
+  margin: 0 auto;
+}
+/* inicio header */
+header {
+  height: 73px;
+  background-color: #ab00fb;
+}
+.navbar {
+  width: 750px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.link-menu {
+  margin-left: 100px;
+  text-decoration: none;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.link-menu:hover {
+  color: black;
+}
+/* fim header */
+
+/* Inicio banner */
+.banner {
+  background-image: url(imggatos/banner.png);
+  height: 390px;
+
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: auto;
+  margin-bottom: -100px;
+}
+.banner h1 {
+  font-family: "Rowdies";
+  text-align: center;
+  font-size: 80px;
+  padding-top: 150px;
+  color: #ab00fb;
+  font-weight: bold;
+  line-height: 99px;
+  -webkit-text-stroke-width: 0.1px; /* largura da borda */
+  -webkit-text-stroke-color: #000; /* cor da borda */
+}
+/* Fim banner */
+
+/*  inicio frase */
+h2 {
+  margin-bottom: 50px;
+  font-family: "Rowdies";
+  text-align: center;
+  font-size: 50px;
+  padding-top: 120px;
+  color: #ab00fb;
+  font-weight: bold;
+  line-height: 99px;
+}
+/*  Fim frase */
+
+/*  inicio GRID */
+.cachorros {
+  display: flex;
+  padding-left: 50px;
+}
+.cachorro {
+  margin: 20px;
+}
+.nome {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0px 0 10px 0px;
+  color: #ab00fb;
+}
+/*  Fim GRID */
+
+/*  inicio Footer */
+footer {
+  height: 73px;
+  background-color: #ab00fb;
+}
+footer img {
+  display: flex;
+  width: 30px;
+}
+.redes {
+  width: 1000px;
+  display: flex;
+  justify-content: end;
+}
+.redes img {
+  margin-left: 20px;
+}
+footer p {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+/*  Fim footer */

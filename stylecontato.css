@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.grid {
+  width: 1140px;
+  margin: 0 auto;
+}
+/* inicio header */
+header {
+  height: 73px;
+  background-color: #0038ff;
+}
+.navbar {
+  width: 750px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.link-menu {
+  margin-left: 100px;
+  text-decoration: none;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.link-menu:hover {
+  color: black;
+}
+/* fim header */
+
+/* Inicio banner */
+.banner {
+  background-image: url(imgcontato/Banner.png);
+  height: 390px;
+
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: auto;
+  margin-bottom: -100px;
+}
+.banner h1 {
+  font-family: "Rowdies";
+  text-align: center;
+  font-size: 80px;
+  padding-top: 150px;
+  color: #0038ff;
+  font-weight: bold;
+  line-height: 99px;
+  -webkit-text-stroke-width: 0.1px; /* largura da borda */
+  -webkit-text-stroke-color: #000; /* cor da borda */
+}
+/* Fim banner */
+
+form {
+  padding-top: 150px;
+  padding-left: 150px;
+}
+
+.pergunta-form {
+  margin-bottom: 20px;
+}
+
+.pergunta-form input {
+  padding-left: 20px;
+  width: 426px;
+  height: 43px;
+  border-radius: 10px;
+  background-color: rgba(0, 56, 255, 0.5);
+  color: white;
+  font-size: 18px;
+}
+.pergunta-form textarea {
+  padding-left: 20px;
+  width: 426px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: rgba(0, 56, 255, 0.5);
+  color: white;
+  font-size: 18px;
+}
+.pergunta-form label {
+  color: #0038ff;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 20px;
+  margin-left: 100px;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgba(0, 56, 255, 0.5);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+.container img {
+  margin-top: 120px;
+  margin-left: 100px;
+}
+
+/*  inicio Footer */
+footer {
+  height: 73px;
+  background-color: #0038ff;
+}
+footer img {
+  display: flex;
+  width: 30px;
+}
+.redes {
+  width: 1000px;
+  display: flex;
+  justify-content: end;
+}
+.redes img {
+  margin-left: 20px;
+}
+footer p {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+/*  Fim footer */

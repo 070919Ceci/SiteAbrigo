@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.grid {
+  width: 1140px;
+  margin: 0 auto;
+}
+/* inicio header */
+header {
+  height: 73px;
+  background-color: #00fb46;
+}
+.navbar {
+  width: 750px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.link-menu {
+  margin-left: 100px;
+  text-decoration: none;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.link-menu:hover {
+  color: black;
+}
+
+/* FIM header */
+
+/* inicio Banner */
+.banner {
+  background-image: url(home/banner.png);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: auto;
+}
+.banner h1 {
+  font-family: "Rowdies";
+  text-align: center;
+  font-size: 80px;
+  padding-top: 90px;
+  color: #f6ed00;
+  font-weight: bold;
+  line-height: 99px;
+  -webkit-text-stroke-width: 0.1px; /* largura da borda */
+  -webkit-text-stroke-color: #000; /* cor da borda */
+}
+
+.banner h2 {
+  font-family: "Rowdies";
+  text-align: center;
+  font-size: 33px;
+  color: #ffffff;
+}
+.para-p {
+  width: 1120px;
+  font-family: "Rowdies";
+  text-align: right;
+  color: white;
+}
+.agende {
+  font-size: 40px;
+}
+.abrigos {
+  font-size: 20px;
+}
+
+/* FIM Banner */
+
+/* inicio section Conhecimento */
+
+.conhecimento h2 {
+  font-size: 20px;
+
+  font-family: "Rowdies";
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.conhecimento p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+ul li {
+  font-size: 16px;
+  font-family: "Rowdies";
+  text-decoration: none;
+  list-style: none;
+  color: #000;
+  padding-left: 10px;
+}
+
+.flex-img {
+  display: flex;
+}
+.img-img {
+  padding-left: 250px;
+}
+ul li a {
+  margin-bottom: 10px;
+}
+
+/*  inicio Footer */
+footer {
+  height: 73px;
+  background-color: #00fb46;
+}
+footer img {
+  display: flex;
+  width: 30px;
+}
+.redes {
+  width: 1000px;
+  display: flex;
+  justify-content: end;
+}
+.redes img {
+  margin-left: 20px;
+}
+.footer p {
+  margin-top: 50px;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+/*  Fim footer */
